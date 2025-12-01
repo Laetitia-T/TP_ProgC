@@ -5,13 +5,20 @@ int main() {
     int a = 16;
     int b = 3;
 
-    for (int i = 0; i != 10; i++) {
         printf("a + b = %d\n", a + b);
         printf("a - b = %d\n", a - b);
         printf("a * b = %d\n", a * b);
         printf("a / b = %d\n", a / b);
         printf("a %% b = %d\n", a % b);
-        printf("a == b = %d\n", a == b);
-        printf("a > b = %d\n", a > b);
-    }
+        if (a == b) {
+        printf("true\n");
+        } else {
+            printf("false\n");
+        }
+
+ if (a > b) {
+        printf("true\n");
+    } else {
+        printf("false\n");
+}
 }
